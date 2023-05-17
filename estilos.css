@@ -1,0 +1,9 @@
+body{background-color: #43a047;}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {display:flex;justify-content:center;align-content:center;color: white;font-family: 'Franklin Gothic Medium';}
