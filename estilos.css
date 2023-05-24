@@ -14,7 +14,7 @@ li:hover{background: rgba(255, 255, 255, 0.345);}
 }
 
 #menu-h ul {
-    max-width: 330px;
+    max-width: 450px;
     list-style: none;
     padding: 0;
     padding-top: 8px;
@@ -39,7 +39,7 @@ li:hover{background: rgba(255, 255, 255, 0.345);}
 }
 
 #menu-h2 ul {
-    max-width: 630px;
+    max-width: 795px;
     list-style: none;
     padding: 0;
 }
