@@ -1,0 +1,16 @@
+body{background-color: rgb(3, 4, 59);}
+h1{color: white;font-family:Verdana, Geneva, Tahoma, sans-serif;text-align: center;}
+h1:hover{color:rgb(75, 28, 216);box-shadow: 3px;}
+h3,p{color: white;font-family:Verdana, Geneva, Tahoma, sans-serif;}
+.rede{
+    background-color:   rgb(3, 4, 59);
+	color: rgb(255, 255, 255);
+	margin: 15px;
+	padding: 15px;
+}
+
+.rede:hover{
+    background-color: rgba(240, 248, 255, 0.047);
+}
+
+img{max-width: 350px;}
