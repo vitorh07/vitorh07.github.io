@@ -12,8 +12,7 @@ li:hover{background: rgba(250, 130, 242, 0.35);}
 
 #menu-h{
     background-color: rgb(37, 37, 39);
-    display: flex;
-    justify-content: center;
+    
 }
 
 #menu-h ul {
@@ -21,6 +20,9 @@ li:hover{background: rgba(250, 130, 242, 0.35);}
     list-style: none;
     padding: 0;
     padding-top: 8px;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 #menu-h ul li {
@@ -38,8 +40,7 @@ li:hover{background: rgba(250, 130, 242, 0.35);}
 
 #menu-h2{
     background-color: rgb(37, 37, 39);
-    display: flex;
-    justify-content: center;
+    
 }
 
 #menu-h2 ul {
@@ -86,3 +87,14 @@ p{
 #Vitor .teste{max-width: 30%;}
 img:hover{opacity: 0.7;}
 p:hover{color: rgba(250, 130, 242, 0.737);}
+
+#Vt{display: flex;justify-content: center; align-items: center;}
+
+#menu1{position: fixed; top: 0;}
+#menu2{position: fixed; bottom: 0;}
+#cont{width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center}
