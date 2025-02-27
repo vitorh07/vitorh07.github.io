@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quantico", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #121212;
+}
+
+.header-site {
+    background-color: #121212;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Centraliza verticalmente */
+    padding: .5em 1em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+.identity{
+    color: #FFFFFF;
+    font-family: "Quantico", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.menu-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center; /* Centraliza verticalmente */
+    width: 50vw;
+}
+
+.menu-header li a {
+    text-decoration: none;
+    color: #9B4DFF;
+}
+
+.menu-header li {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.menu-header li a:hover {
+    color: #D4A0FF;
+    border-bottom: 1px solid #D4A0FF;
+}
+
+.logo-site img {
+    border-radius: 50%;
+    width: 75px;
+}
+
+/* Estilos do Footer */
+.footer-site {
+    background-color: #1E1E1E;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Centraliza verticalmente */
+    padding: .5em 1em;
+}
+
+.nav-footer {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.menu-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.menu-footer li a {
+    text-decoration: none;
+    color: #9B4DFF;
+    font-size: 3rem;
+}
+
+.menu-footer li {
+    list-style: none;
+    margin-right: 5rem; /* Adiciona espaçamento entre os itens */
+}
+
+.menu-footer li a:hover {
+    color: #D4A0FF;
+}
+
+.contact-info {
+    color: #9B4DFF;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+/* Estilos da Barra de Progresso */
+#progress-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 1001;
+}
+
+#progress-bar {
+    height: 5px;
+    background: #9B4DFF;
+    width: 0;
+}
+
+#topo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.home-body {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+    height: 90vh;
+}
+
+.home-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.home-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#name {
+    color: #9B4DFF;
+    margin-bottom: 10px;
+}
+
+#name a{
+    text-decoration: none;
+}
+
+#name a:hover {
+    color: #D4A0FF;
+}
+
+.home-text p {
+    color: #D4A0FF;
+    margin-top: 10px;
+}
+
+.home-image {
+    width: 100%;
+    height: 100%;
+}
+
+.home-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 0.2; /* Ajuste a opacidade conforme necessário */
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: #9B4DFF;
+}
+
+.contact-info a:hover{
+    color: #D4A0FF;
+}
+
+.skills, .projetos{
+    min-height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #9B4DFF;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }
+
+  .skills-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.skill-item p {
+    color: #9B4DFF;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.skills-icons i{
+    font-size: 4rem;
+    color: #9B4DFF;
+    transition: color 0.3s;
+    background-color: #1E1E1E;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.skills-icons i:hover{
+    color: #D4A0FF;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.skills h2, .projetos h2{
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 3rem;
+    margin-top: 100px;
+}
+
+#main, #skills, #projetos{
+    margin-bottom: 100px;
+    border-top: 1px solid #9B4DFF;
+}
+.projetos {
+    padding: 2rem 0;
+    background-color: #121212;
+}
+
+.projetos h2 {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+.projeto-item {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-bottom: 2rem;
+    background-color: #1E1E1E;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: transform 0.3s;
+    width: 70%;
+}
+
+.projeto-item:hover {
+    transform: scale(1.05);
+}
+
+.projeto-image {
+    flex: 1;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projeto-image i{
+    font-size: 250px;
+    text-align: center;
+    color: red;
+}
+
+.projeto-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.projeto-text {
+    flex: 2;
+    text-align: left;
+    padding: 1rem;
+    width: 100%;
+}
+
+.projeto-text h3 {
+    color: #9B4DFF;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.projeto-text p {
+    color: #D4A0FF;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projeto-text a {
+    text-decoration: none;
+    color: #9B4DFF;
+    font-weight: bold;
+    transition: color 0.3s;
+    background-color: #333;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.projeto-text a:hover {
+    color: #D4A0FF;
+}
+
+/* RESPONSIVIDADE */
+
+/* MENU BAR PARA MOBILE */
+#menu-bar {
+    display: none;
+    width: 45px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+    position: fixed; /* Menu hamburguer fixo */
+    z-index: 1001; /* Valor mais alto para sobrepor o conteúdo */
+    top: 0;
+    left: 0;
+}
+
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: #9B4DFF;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(4px);
+}
+
+.nav {
+    position: fixed; /* Navegação fixa */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: 1000; /* Um valor acima do .menu-bg */
+    display: none; /* Mantém o nav oculto até ser ativado */
+    transition: 0.3s ease;
+    background-color: #9B4DFF;
+}
+
+.nav ul {
+    padding: 100px 22px; /* Espaço superior para centralizar a lista verticalmente */
+    margin: 0; /* Remove a margem padrão */
+    text-align: center; /* Centraliza os itens horizontalmente */
+    flex-direction: column;
+}
+
+.nav ul h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.nav li {
+    list-style: none;
+    padding: 12px 0;
+    margin-top: 1rem;
+}
+
+.nav li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block; /* Ajuda a centralizar os links */
+}
+
+.nav li a:hover {
+    font-weight: bold;
+    text-shadow: #222 2px 2px;
+}
+
+.menu-bg, #menu {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.menu-bg {
+    position: fixed; /* Fundo do menu fixo */
+    top: 0;
+    left: 0;
+    z-index: 999; /* Um valor abaixo do #menu-bar e do .nav */
+    width: 0;
+    height: 0;
+    height: 100vh;
+    opacity: 100%;
+    transition: 0.3s ease;
+}
+
+.change {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.change .bar {
+    background-color: white;
+}
+
+.change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+    opacity: 0;
+}
+
+.change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+    width: 250%;
+    height: 70%;
+    transform: translate(-60%,-30%);
+    position: fixed;
+    z-index: 999; /* Um valor alto para sobrepor o conteúdo */
+}
+
+@media (max-width: 570px) {
+    .contact-info p {
+        font-size: 1rem; 
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+    #menu-bar {
+        display: block;
+    }
+
+    .header-site .nav-header {
+        display: none;
+    }
+
+    .contact-info p {
+        font-size: 1rem;
+        margin-right: 0.75rem;
+    }
+
+    .footer-site {
+        height: 30vh;
+    }
+
+    .menu-footer li a{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 768px){
+    .change, .change-bg{
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+        .projeto-item{
+            flex-direction: column;
+        }
+}

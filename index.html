@@ -1,61 +1,155 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFÓLIO</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Portfólio</title>
 </head>
+
 <body>
-    <!-- INICIO DO PRIMEIRO MENU -->
-      <div id="Vt">
-        <div id="menu1">
-                <nav id="menu-h">
-                    <ul>
-                        <li><a href="https://www.instagram.com/vittzhz_" target="_blank">Instagram</a></li>
-                        <li><a href="https://www.linkedin.com/in/vitor-foga%C3%A7a-92313a26b/" target="_blank">LinkedIn</a></li> 
-                        <li><a href="https://github.com/vitorh07" target="_blank">GitHub</a></li>
-                    </ul>
-                </nav>
-            </div>
+    <div class="header-site" id="menu-nav">
+        <div class="logo-site">
+            <h1 class="identity">Portfólio</h1>
         </div>
-    <!-- FECHAMENTO DO PRIMEIRO MENU -->
-    <!-- INICIO DO CONTÉUDO (IMG E P) -->
-        <div id="Vitor">
-            <div id="cont">
-            <div class="teste">
-                <img src="./img/1.png" alt="Avatar">
+        <nav class="nav-header">
+            <ul class="menu-header">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#footer">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+    </div>
+
+    <nav class="nav" id="nav">
+        <ul>
+            <h2>Header</h2>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#footer">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="menu-bg" id="menu-bg"></div>
+
+
+
+    <!-- Barra de progresso -->
+    <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+
+    <!-- Conteúdo da página -->
+    <div id="main" class="home-body">
+        <div class="home-content">
+            <div class="home-image">
+                <img src="./img/icons.png" alt="Icones">
             </div>
-            <div class="teste">
-                <p>Meu nome é Vitor Henrique da Silva Fogaça. Tenho 16 anos, nasci e moro em Sorocaba. Estou atualmente no 2° ano do Ensino Médio no SESI, e estou cursando o Técnico em Desenvolvimento de Sistemas no SENAI.</p>
+            <div class="home-text">
+                <h1>Olá, eu sou</h1>
+                <h1 id="name"><a target="_blank" href="https://github.com/vitorh07">Vitor Fogaça</a></h1>
+                <p>Desenvolvedor Full Stack</p>
             </div>
-         </div>
-        </div>
-    <!-- FECHAMENTO DO CONTÉUDO (IMG E P) -->
-    <!-- INICIO DO SEGUNDO MENU -->
-     <div id="Vt">
-         <div id="menu2">
-            <nav id="menu-h2">
-                <ul>
-                    <li><a href="https://vitorh07.github.io/android-css/" target="_blank">Android</a></li>
-                    <li><a href="https://vitorh07.github.io/desafio-blocos-de-cores/" target="_blank">Blocos de Cores</a></li>
-                    <li><a href="https://vitorh07.github.io/desenhos-vetoriais/" target="_blank">Desenhos Vetoriais</a></li> 
-                    <li><a href="https://vitorh07.github.io/dia-da-mulher/" target="_blank">Dia da Mulher</a></li>
-                    <li><a href="https://vitorh07.github.io/form-prime-video/" target="_blank">Prime Video</a></li>
-                    <li><a href="https://vitorh07.github.io/fpoo-java/" target="_blank">Java</a></li>
-                    <li><a href="https://vitorh07.github.io/hortifruti-css/" target="_blank">Hortifrúti</a></li> 
-                    <li><a href="https://vitorh07.github.io/pacote-office/" target="_blank">Office</a></li>
-                    <li><a href="https://vitorh07.github.io/pokedesafio-css/" target="_blank">Pokedesafio</a></li>
-                    <li><a href="https://vitorh07.github.io/projeto-sesi/" target="_blank">Projeto Sesi</a></li>
-                    <li><a href="https://vitorh07.github.io/servicos_de_rede/" target="_blank">Serviços de Rede</a></li>
-                    <li><a href="https://vitorh07.github.io/barbie-filme/" target="_blank">Barbie</a></li>
-                    <li><a href="https://vitorh07.github.io/matricula-sesi/" target="_blank">SESI</a></li>
-                </ul>
-            </nav>
         </div>
     </div>
-    <!-- FECHAMENTO DO SEGUNDO MENU -->
+
+    <div id="skills" class="skills">
+        <h2>Habilidades</h2>
+        <div class="skills-icons">
+            <div class="skill-item">
+                <p>HTML5</p>
+                <i class="fab fa-html5"></i>
+            </div>
+            <div class="skill-item">
+                <p>CSS3</p>
+                <i class="fab fa-css3-alt"></i>
+            </div>
+            <div class="skill-item">
+                <p>JavaScript</p>
+                <i class="fab fa-js"></i>
+            </div>
+            <div class="skill-item">
+                <p>Java</p>
+                <i class="fa-brands fa-java"></i>
+            </div>
+            <div class="skill-item">
+                <p>Python</p>
+                <i class="fa-brands fa-python"></i>
+            </div>
+            <div class="skill-item">
+                <p>Git</p>
+                <i class="fab fa-git-alt"></i>
+            </div>
+            <div class="skill-item">
+                <p>WordPress</p>
+                <i class="fa-brands fa-wordpress"></i>
+            </div>
+        </div>
+    </div>
+
+    <div id="projetos" class="projetos">
+        <h2>Projetos</h2>
+        <div class="projeto-item">
+            <div class="projeto-image">
+                <img src="./img/ferunhas.gif" alt="Projeto 1">
+            </div>
+            <div class="projeto-text">
+                <h3>FerUnhas</h3>
+                <p>Foi um projeto desenvolvido como trabalho final no Curso Técnico de Desenvolvimento de Sistemas do
+                    SENAI (01/2023 até 12/2024), foi utilizado Spring Boot para desenvolvimento da API juntamente ao
+                    MySQL, para criação do site foi prototipado no Figma e feito no VSCode com HTML, CSS e JavaScript, a
+                    manipulação dos dados (GET, POST, PUT, DELETE) foi feita também pelo JavaScript e testes realizados
+                    no Postman.</p>
+                <a href="https://github.com/mxcompany/FerUnhas" target="_blank">Ver projeto</a>
+            </div>
+        </div>
+        <div class="projeto-item">
+            <div class="projeto-image">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <div class="projeto-text">
+                <h3>Projeto</h3>
+                <p>Em desenvolvimento</p>
+                <a href="#">Sem projeto</a>
+            </div>
+        </div>
+        <!-- Adicione mais projetos conforme necessário -->
+    </div>
+
+    <!-- Início do Footer -->
+    <footer id="footer" class="footer-site">
+        <div class="contact-info">
+            <p><a href="mailto:vitorfogaca0227@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>
+                    vitorfogaca0227@gmail.com</a></p>
+            <p><a href="https://wa.me/5515991077691" target="_blank"><i class="fa-solid fa-phone"></i>
+                    (15) 99107-7691</a></p>
+        </div>
+        <nav class="nav-footer">
+            <ul class="menu-footer">
+                <li><a href="https://www.linkedin.com/in/vitor-foga%C3%A7a/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/vitorh07" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+    <!-- Fim do Footer -->
+
+    <script src="/index.js"></script>
 </body>
-    
+
 </html>
