@@ -452,9 +452,10 @@ body {
     #menu-bar {
         display: block;
     }
-
-    .identity h1{
+    
+    .identity{
         text-align: center;
+        width: 100vw;
     }
 
     .header-site .nav-header {
@@ -495,9 +496,47 @@ body {
     }
 }
 
-@media (min-width: 768px) {
-    .change, .change-bg {
-        display: none;
+@media (max-width: 460px) {
+    .header-site {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .menu-header {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu-header li {
+        margin-bottom: 1rem;
+    }
+
+    .footer-site {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .menu-footer {
+        flex-direction: column;
+    }
+
+    .menu-footer li {
+        margin-bottom: 1rem;
+    }
+
+    .home-body {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .home-text {
+        margin-top: 1rem;
+    }
+
+    .projeto-item {
+        width: 100%;
     }
 }
 
