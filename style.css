@@ -1,4 +1,5 @@
-*{
+/* Estilos gerais */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,12 +12,13 @@ body {
     background-color: #121212;
 }
 
+/* Header */
 .header-site {
     background-color: #121212;
     height: 10vh;
     display: flex;
-    justify-content: space-around;
-    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between;
+    align-items: center;
     padding: .5em 1em;
     position: fixed;
     width: 100%;
@@ -25,7 +27,7 @@ body {
     transition: top 0.3s;
 }
 
-.identity{
+.identity {
     color: #FFFFFF;
     font-family: "Quantico", monospace;
     font-weight: 700;
@@ -34,14 +36,14 @@ body {
 
 .nav-header {
     display: flex;
-    align-items: center; /* Centraliza verticalmente */
+    align-items: center;
 }
 
 .menu-header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;  
-    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between;
+    align-items: center;
     width: 50vw;
 }
 
@@ -61,31 +63,26 @@ body {
     border-bottom: 1px solid #D4A0FF;
 }
 
-.logo-site img {
-    border-radius: 50%;
-    width: 75px;
-}
-
-/* Estilos do Footer */
+/* Footer */
 .footer-site {
     background-color: #1E1E1E;
     height: 20vh;
     display: flex;
     justify-content: space-around;
-    align-items: center; /* Centraliza verticalmente */
+    align-items: center;
     padding: .5em 1em;
 }
 
 .nav-footer {
     display: flex;
-    align-items: center; /* Centraliza verticalmente */
+    align-items: center;
 }
 
 .menu-footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;  
-    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu-footer li a {
@@ -96,7 +93,7 @@ body {
 
 .menu-footer li {
     list-style: none;
-    margin-right: 5rem; /* Adiciona espaçamento entre os itens */
+    margin-right: 5rem;
 }
 
 .menu-footer li a:hover {
@@ -109,7 +106,16 @@ body {
     font-size: 1.25rem;
 }
 
-/* Estilos da Barra de Progresso */
+.contact-info a{
+    color: #9B4DFF;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #D4A0FF;
+}
+
+/* Barra de Progresso */
 #progress-container {
     position: fixed;
     top: 0;
@@ -126,12 +132,7 @@ body {
     width: 0;
 }
 
-#topo{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
+/* Home */
 .home-body {
     margin-top: 10vh;
     display: flex;
@@ -160,7 +161,7 @@ body {
     margin-bottom: 10px;
 }
 
-#name a{
+#name a {
     text-decoration: none;
 }
 
@@ -183,32 +184,15 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    opacity: 0.2; /* Ajuste a opacidade conforme necessário */
+    opacity: 0.2;
 }
 
-.contact-info a{
-    text-decoration: none;
-    color: #9B4DFF;
-}
-
-.contact-info a:hover{
-    color: #D4A0FF;
-}
-
-.skills, .projetos{
+/* Skills */
+.skills, .projetos {
     min-height: 100vh;
 }
 
-body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: #9B4DFF;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-  }
-
-  .skills-icons {
+.skills-icons {
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -226,7 +210,7 @@ body::-webkit-scrollbar {
     margin-bottom: 0.5rem;
 }
 
-.skills-icons i{
+.skills-icons i {
     font-size: 4rem;
     color: #9B4DFF;
     transition: color 0.3s;
@@ -235,13 +219,13 @@ body::-webkit-scrollbar {
     border-radius: 0.5rem;
 }
 
-.skills-icons i:hover{
+.skills-icons i:hover {
     color: #D4A0FF;
     transform: scale(1.2);
     transition: 0.5s;
 }
 
-.skills h2, .projetos h2{
+.skills h2, .projetos h2 {
     color: #FFFFFF;
     font-size: 2.5rem;
     text-align: center;
@@ -249,10 +233,11 @@ body::-webkit-scrollbar {
     margin-top: 100px;
 }
 
-#main, #skills, #projetos{
+#main, #skills, #projetos {
     margin-bottom: 100px;
     border-top: 1px solid #9B4DFF;
 }
+
 .projetos {
     padding: 2rem 0;
     background-color: #121212;
@@ -289,7 +274,7 @@ body::-webkit-scrollbar {
     justify-content: center;
 }
 
-.projeto-image i{
+.projeto-image i {
     font-size: 250px;
     text-align: center;
     color: red;
@@ -334,17 +319,17 @@ body::-webkit-scrollbar {
     color: #D4A0FF;
 }
 
-/* RESPONSIVIDADE */
+/* Responsividade */
 
-/* MENU BAR PARA MOBILE */
+/* Menu bar para mobile */
 #menu-bar {
     display: none;
     width: 45px;
     height: 30px;
     margin: 30px 0 20px 20px;
     cursor: pointer;
-    position: fixed; /* Menu hamburguer fixo */
-    z-index: 1001; /* Valor mais alto para sobrepor o conteúdo */
+    position: fixed;
+    z-index: 1001;
     top: 0;
     left: 0;
 }
@@ -367,25 +352,25 @@ body::-webkit-scrollbar {
 }
 
 .nav {
-    position: fixed; /* Navegação fixa */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 50%;
-    z-index: 1000; /* Um valor acima do .menu-bg */
-    display: none; /* Mantém o nav oculto até ser ativado */
+    z-index: 1000;
+    display: none;
     transition: 0.3s ease;
     background-color: #9B4DFF;
 }
 
 .nav ul {
-    padding: 100px 22px; /* Espaço superior para centralizar a lista verticalmente */
-    margin: 0; /* Remove a margem padrão */
-    text-align: center; /* Centraliza os itens horizontalmente */
+    padding: 100px 22px;
+    margin: 0;
+    text-align: center;
     flex-direction: column;
 }
 
-.nav ul h2{
+.nav ul h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
 }
@@ -400,7 +385,7 @@ body::-webkit-scrollbar {
     color: white;
     font-size: 20px;
     text-decoration: none;
-    display: inline-block; /* Ajuda a centralizar os links */
+    display: inline-block;
 }
 
 .nav li a:hover {
@@ -415,10 +400,10 @@ body::-webkit-scrollbar {
 }
 
 .menu-bg {
-    position: fixed; /* Fundo do menu fixo */
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: 999; /* Um valor abaixo do #menu-bar e do .nav */
+    z-index: 999;
     width: 0;
     height: 0;
     height: 100vh;
@@ -451,22 +436,25 @@ body::-webkit-scrollbar {
 .change-bg {
     width: 250%;
     height: 70%;
-    transform: translate(-60%,-30%);
+    transform: translate(-60%, -30%);
     position: fixed;
-    z-index: 999; /* Um valor alto para sobrepor o conteúdo */
+    z-index: 999;
 }
 
+/* Ajustes de responsividade */
 @media (max-width: 570px) {
     .contact-info p {
-        font-size: 1rem; 
+        font-size: 1rem;
     }
-
-    
 }
 
 @media (max-width: 768px) {
     #menu-bar {
         display: block;
+    }
+
+    .identity h1{
+        text-align: center;
     }
 
     .header-site .nav-header {
@@ -482,19 +470,39 @@ body::-webkit-scrollbar {
         height: 30vh;
     }
 
-    .menu-footer li a{
+    .menu-footer li a {
         font-size: 2rem;
+    }
+
+    .home-body {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .home-text {
+        position: static;
+        transform: none;
+        margin-top: 2rem;
+    }
+
+    .home-image img {
+        opacity: 1;
+    }
+
+    .projeto-item {
+        flex-direction: column;
+        width: 90%;
     }
 }
 
-@media (min-width: 768px){
-    .change, .change-bg{
+@media (min-width: 768px) {
+    .change, .change-bg {
         display: none;
     }
 }
 
 @media (max-width: 1024px) {
-        .projeto-item{
-            flex-direction: column;
-        }
+    .projeto-item {
+        flex-direction: column;
+    }
 }
