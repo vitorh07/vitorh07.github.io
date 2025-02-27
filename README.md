@@ -2,6 +2,8 @@
 
 Bem-vindo ao meu portfólio! Este repositório contém informações sobre meus projetos, habilidades e formas de contato.
 
+![Screenshot da página inicial](./img/print.png)
+
 ## Índice
 
 - [Sobre](#sobre)
@@ -9,7 +11,6 @@ Bem-vindo ao meu portfólio! Este repositório contém informações sobre meus 
 - [Projetos](#projetos)
 - [Recursos Utilizados](#recursos-utilizados)
 - [Contato](#contato)
-- [Como Executar](#como-executar)
 - [Licença](#licença)
 
 ## Sobre
@@ -52,22 +53,6 @@ Este portfólio foi criado para mostrar meus projetos e habilidades como desenvo
 - **WhatsApp:** [(15) 99107-7691](https://wa.me/5515991077691)
 - **LinkedIn:** [Vitor Fogaça](https://www.linkedin.com/in/vitor-foga%C3%A7a/)
 - **GitHub:** [vitorh07](https://github.com/vitorh07)
-
-## Como Executar
-
-Para executar este projeto localmente, siga os passos abaixo:
-
-1. Clone o repositório:
-    ```bash
-    git clone https://github.com/vitorh07/vitorh07.github.io.git
-    ```
-
-2. Navegue até o diretório do projeto:
-    ```bash
-    cd vitorh07.github.io
-    ```
-
-3. Abra o arquivo [index.html](http://_vscodecontentref_/1) no seu navegador.
 
 ## Licença
 
