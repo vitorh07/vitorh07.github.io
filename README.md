@@ -32,13 +32,20 @@ Este portfólio foi criado para mostrar meus projetos e habilidades como desenvo
 ### FerUnhas
 
 - **Descrição:** Projeto desenvolvido como trabalho final no Curso Técnico de Desenvolvimento de Sistemas do SENAI.
-- **Tecnologias Utilizadas:** Spring Boot, MySQL, Figma, HTML, CSS, JavaScript.
+- **Tecnologias Utilizadas:** Spring Boot (Java), MySQL, Figma, HTML, CSS, JavaScript.
 - **Link:** [Ver projeto](https://github.com/mxcompany/FerUnhas)
 
-### Projeto em Desenvolvimento
+### Cassino Velho Oeste
 
-- **Descrição:** Em desenvolvimento.
-- **Link:** Sem projeto.
+- **Descrição:** Projeto desenvolvido com intuito de testar conhecimentos lógicos de JavaScript (Sorteio de imagens, teste de posições, apostas e ganhos).
+- **Tecnologias Utilizadas:** HTML, CSS e JavaScript.
+- **Link:** [Ver projeto](https://github.com/vitorh07/cassino)
+
+### API Usuário
+
+- **Descrição:** API simples para cadastro, login e visualização de informações do usuário.
+- **Tecnologias Utilizadas:** Spring Boot (Java), HTML, CSS e Java Script.
+- **Link:** [Ver projeto](https://github.com/vitorh07/user-simples)
 
 ## Recursos Utilizados
 
