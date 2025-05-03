@@ -47,6 +47,12 @@ Este portfólio foi criado para mostrar meus projetos e habilidades como desenvo
 - **Tecnologias Utilizadas:** Spring Boot (Java), HTML, CSS e Java Script.
 - **Link:** [Ver projeto](https://github.com/vitorh07/user-simples)
 
+### Naruto API
+
+- **Descrição:** API para visualizar principais personagens de Naruto.
+- **Tecnologias Utilizadas:** Spring Boot (Java), HTML, CSS e Java Script.
+- **Link:** [Ver projeto](https://github.com/vitorh07/naruto-api)
+
 ## Recursos Utilizados
 
 - ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
