@@ -63,7 +63,6 @@ Este portfólio foi criado para mostrar meus projetos e habilidades como desenvo
 ## Contato
 
 - **Email:** [vitorfogaca0227@gmail.com](mailto:vitorfogaca0227@gmail.com)
-- **WhatsApp:** [(15) 99107-7691](https://wa.me/5515991077691)
 - **LinkedIn:** [Vitor Fogaça](https://www.linkedin.com/in/vitor-foga%C3%A7a/)
 - **GitHub:** [vitorh07](https://github.com/vitorh07)
 
